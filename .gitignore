@@ -31,3 +31,6 @@
 # Exclude MSVC build directories
 tutorial-01/msvc/Debug
 tutorial-01/msvc/tutorial-01/Debug
+
+tutorial-01/msvc/x64/Debug
+tutorial-01/msvc/tutorial-01/x64/Debug
