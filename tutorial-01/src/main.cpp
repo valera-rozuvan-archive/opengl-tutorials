@@ -1,6 +1,9 @@
 #if defined(WIN32) || defined(_WIN32) || defined(__WIN32)
 #include <Windows.h>
+#define GLEW_STATIC
 #endif
+
+#include <GL/glew.h>
 
 #if defined(WIN32) || defined(_WIN32) || defined(__WIN32)
 int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR lpComand, int nShow)

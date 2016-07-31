@@ -29,3 +29,5 @@
 *.app
 
 # Exclude MSVC build directories
+tutorial-01/msvc/Debug
+tutorial-01/msvc/tutorial-01/Debug
