@@ -17,7 +17,10 @@ int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR lpComand, int n
 int main(int, char**) {
 #endif
 
-	glfwInit();
+	// Check for success of GLFW initialization.
+	if (!glfwInit()) {
+		return -1;
+	}
 
 	std::this_thread::sleep_for(std::chrono::seconds(1));
 
